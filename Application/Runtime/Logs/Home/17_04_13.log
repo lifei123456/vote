@@ -1,0 +1,23 @@
+[ 2017-04-13T16:09:08+08:00 ] 112.28.146.63 /luck/index.php?s=Home/Admin/sendMsgAgain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE ( `isluck`=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-13T16:27:28+08:00 ] 112.28.146.63 /luck/index.php?s=Home/Admin/sendMsgAgain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` INNER JOIN luck_user on luck_user.unionid=luck_code.unionid and luck_code.isluck=1   [ RunTime:0.0008s ]
+

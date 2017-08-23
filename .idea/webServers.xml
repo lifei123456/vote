@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fd972cdd-39a3-4586-826d-65e851c03416" name="121.42.57.23" url="http://wx.aufe.vip/">
+        <fileTransfer host="121.42.57.23" port="22" rootFolder="/home/wwwroot/wx.aufe.vip/luck" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+[ 2017-04-16T23:29:01+08:00 ] 183.3.240.31 /luck/index.php?s=Home%2FIndex%2Fsubscribe&timestamp=1492356541&signature=00002fe8271b652a34db3687ec3af3ff91a4035d&nonce=402906614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-04-16T23:34:08+08:00 ] 183.3.240.250 /luck/index.php?s=Home%2FIndex%2Fsubscribe&timestamp=1492356848&signature=45cc7f15d065c37df43d02a5fa62917b224be122&nonce=949780005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+

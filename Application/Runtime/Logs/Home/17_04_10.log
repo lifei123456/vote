@@ -1,0 +1,1887 @@
+[ 2017-04-10T19:34:39+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+ERR: Think\Model:oreder方法不存在！
+
+[ 2017-04-10T19:35:18+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0351s ]
+
+[ 2017-04-10T19:39:29+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column '__CODE__.shareimg' in 'field list'
+ [ SQL语句 ] : SELECT __CODE__.shareimg,__USER__.openid,__USER__.nickname FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1  
+ERR: 1054:Unknown column '__CODE__.shareimg' in 'field list'
+ [ SQL语句 ] : SELECT __CODE__.shareimg,__USER__.openid,__USER__.nickname FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1  
+
+[ 2017-04-10T19:39:55+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,`nickname` FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0272s ]
+
+[ 2017-04-10T19:40:07+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0280s ]
+
+[ 2017-04-10T19:40:19+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0009s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0274s ]
+
+[ 2017-04-10T19:40:28+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 20   [ RunTime:0.0278s ]
+
+[ 2017-04-10T19:43:34+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-04-10T19:43:39+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0313s ]
+
+[ 2017-04-10T19:44:55+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-04-10T19:44:57+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0281s ]
+
+[ 2017-04-10T19:45:04+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-04-10T19:45:06+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0281s ]
+
+[ 2017-04-10T19:45:21+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0284s ]
+
+[ 2017-04-10T19:45:46+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-04-10T19:45:49+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 100   [ RunTime:0.0283s ]
+
+[ 2017-04-10T19:51:21+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-10T19:51:25+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 123   [ RunTime:0.0290s ]
+
+[ 2017-04-10T19:55:17+08:00 ] 101.226.103.60 /luck/index.php?signature=927c7c090f885673c8a630922a847ebbfe82d414&timestamp=1491825317&nonce=520892364&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: Content /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-04-10T19:55:17+08:00 ] 101.226.103.60 /luck/index.php?signature=413f0095339b50bbd52aa09394b7840ab157e4a0&timestamp=1491825317&nonce=1009515420&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-04-10T19:55:22+08:00 ] 101.226.103.60 /luck/index.php?signature=0199d6ab0b0e1beb9e4eb99e4137dfc5a486ccd3&timestamp=1491825322&nonce=1941702897&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-04-10T19:55:27+08:00 ] 101.226.33.202 /luck/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 67 行.
+NOTIC: [2] Creating default object from empty value /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 71 行.
+NOTIC: [8] Undefined property: stdClass::$Content /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 72 行.
+
+[ 2017-04-10T19:56:44+08:00 ] 101.226.103.60 /luck/index.php?signature=f441c9d58fe65ea955c15c45cbda8cb1e3e1affa&timestamp=1491825404&nonce=1014019886&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-04-10T19:56:46+08:00 ] 101.226.233.156 /luck/index.php?signature=7ae86d0cdc64e17c37a1d277ea182c78b0257108&timestamp=1491825406&nonce=1394718680&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: Content /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-04-10T19:56:46+08:00 ] 101.226.233.156 /luck/index.php?signature=3d7eaf4ed7626d7bca09f67063e614f118082239&timestamp=1491825406&nonce=1937159479&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-10T19:56:48+08:00 ] 101.226.103.60 /luck/index.php?signature=c2eb76bd7f1a31cf2929eb2a553d3f1ac4bb5e81&timestamp=1491825408&nonce=1029957324&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-04-10T19:58:11+08:00 ] 101.226.233.141 /luck/index.php?signature=98bc4022e0f38a0a89f1ae8fa65b2facd20cb8b9&timestamp=1491825490&nonce=46844153&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-04-10T19:58:35+08:00 ] 101.226.233.156 /luck/index.php?signature=fea129ecb1b2b808dbdd8089bbcca9f51cc1c35e&timestamp=1491825515&nonce=90198196&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-04-10T19:58:41+08:00 ] 101.226.103.60 /luck/index.php?signature=79162fc5759f950cd46588c179dfecbd8a404dd4&timestamp=1491825521&nonce=267744406&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: Content /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-04-10T19:58:41+08:00 ] 101.226.103.60 /luck/index.php?signature=5b9b5051e63389ec7720b261d6221de26714e098&timestamp=1491825521&nonce=237855799&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-04-10T19:58:51+08:00 ] 101.226.233.146 /luck/index.php?signature=aa27c37b99803d7f8e1988df27885581a3a572b5&timestamp=1491825531&nonce=407926899&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-04-10T20:02:40+08:00 ] 101.226.233.151 /luck/index.php?signature=ffaae9ac4c330762a9d89d9855efe3dcf4ee022a&timestamp=1491825760&nonce=1996866415&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-04-10T20:08:40+08:00 ] 101.226.103.60 /luck/index.php?signature=14628dfacaca8338182afe7aab99909c072c3c73&timestamp=1491826120&nonce=1032602578&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-10T20:08:55+08:00 ] 101.226.103.60 /luck/index.php?signature=f857cbbe012cfddbf7062cd74acb81fb5659a877&timestamp=1491826135&nonce=610386122&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-10T20:11:20+08:00 ] 101.226.233.146 /luck/index.php?signature=af352e65fce5e92b0dca1bf8342faa9d2e07b074&timestamp=1491826280&nonce=157735992&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-04-10T20:12:09+08:00 ] 101.226.103.60 /luck/index.php?signature=5b9fca5e1a81e5fbcba22eff936c4b081b4ed6e3&timestamp=1491826329&nonce=1795923901&openid=o16hwwWRRGzrw8Z6mve8h-bPxUMY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-04-10T20:12:56+08:00 ] 101.226.233.148 /luck/index.php?signature=5ba1b1a4427c80407368725221fcf6d1857c7dbc&timestamp=1491826376&nonce=1373094830&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-10T20:21:06+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-04-10T20:21:41+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-04-10T20:21:44+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0274s ]
+
+[ 2017-04-10T20:22:27+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-04-10T20:22:29+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0282s ]
+
+[ 2017-04-10T20:25:28+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-04-10T20:25:30+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0289s ]
+
+[ 2017-04-10T20:32:31+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-04-10T20:32:33+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0278s ]
+
+[ 2017-04-10T20:32:40+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-04-10T20:33:22+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-04-10T20:33:23+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0283s ]
+
+[ 2017-04-10T20:33:24+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-04-10T20:34:46+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-04-10T20:34:49+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 123   [ RunTime:0.0286s ]
+
+[ 2017-04-10T20:34:51+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-04-10T20:35:12+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-04-10T20:36:09+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-04-10T20:38:13+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-04-10T20:38:16+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 21   [ RunTime:0.0297s ]
+
+[ 2017-04-10T20:38:17+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-04-10T20:38:39+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-04-10T20:39:25+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-04-10T20:39:27+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 123   [ RunTime:0.0286s ]
+
+[ 2017-04-10T20:39:30+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/AdminController.class.php 第 127 行.
+
+[ 2017-04-10T20:40:02+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-04-10T20:40:05+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-04-10T20:40:08+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0009s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 9   [ RunTime:0.0292s ]
+
+[ 2017-04-10T20:40:11+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0279s ]
+
+[ 2017-04-10T20:40:27+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0287s ]
+
+[ 2017-04-10T20:40:28+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0286s ]
+
+[ 2017-04-10T20:40:30+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/getOneLuck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0312s ]
+
+[ 2017-04-10T20:54:03+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-04-10T20:54:05+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0284s ]
+
+[ 2017-04-10T20:54:36+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/AdminController.class.php 第 127 行.
+
+[ 2017-04-10T20:55:06+08:00 ] 112.28.146.57 /luck/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 67 行.
+NOTIC: [2] Creating default object from empty value /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 71 行.
+NOTIC: [8] Undefined property: stdClass::$Content /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 72 行.
+
+[ 2017-04-10T20:55:10+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-04-10T20:55:12+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0284s ]
+
+[ 2017-04-10T20:56:49+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-04-10T20:56:51+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0284s ]
+
+[ 2017-04-10T21:03:09+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-04-10T21:03:11+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0273s ]
+
+[ 2017-04-10T21:03:38+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-04-10T21:03:40+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0289s ]
+
+[ 2017-04-10T21:04:38+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-04-10T21:04:40+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0280s ]
+
+[ 2017-04-10T21:05:07+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-04-10T21:31:28+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-04-10T21:31:35+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-04-10T21:31:49+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-04-10T21:32:44+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-04-10T21:32:53+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-04-10T21:33:37+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-04-10T21:38:25+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-04-10T21:39:03+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-04-10T21:39:24+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-10T21:39:57+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-04-10T21:40:51+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-04-10T21:41:00+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-04-10T21:58:30+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-04-10T21:58:34+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='14' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0012s ]
+
+[ 2017-04-10T21:59:40+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-04-10T21:59:43+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='14' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-04-10T22:05:56+08:00 ] 101.226.62.77 /luck/index.php?signature=9f00128de776917433a9ff837d361f8bb3c58d72&timestamp=1491833156&nonce=1026148777&openid=o16hwwRX1OUbDmfy-O5GuoAOvTrc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `luck_user` (`unionid`,`openid`,`time`,`nickname`,`other_info`) VALUES ('oV6UzwYQcWYo-rjYhR-Wqxr47jow','o16hwwRX1OUbDmfy-O5GuoAOvTrc','1491833156','cc','{\"subscribe\":1,\"openid\":\"o16hwwRX1OUbDmfy-O5GuoAOvTrc\",\"nickname\":\"cc\",\"sex\":0,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/cLswqCjP6S2l7934jZjibXmle2BLibwbZKYzU41eyFlmogpwELFX80UibmAXeCOJp2XS9Daw1q3ialSFPicIOZ6ZEs7W0icFsJU9icV\\/0\",\"subscribe_time\":1488728292,\"unionid\":\"oV6UzwYQcWYo-rjYhR-Wqxr47jow\",\"remark\":\"\",\"groupid\":0,\"tagid_list\":[]}') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `luck_code` (`unionid`,`luckcode`,`time`,`version`) VALUES ('oV6UzwYQcWYo-rjYhR-Wqxr47jow','2268969','1491833156','10') [ RunTime:0.0002s ]
+
+[ 2017-04-10T22:09:50+08:00 ] 101.226.62.77 /luck/index.php?signature=04207819e8e8db82b508bb06f5ba291c12c3f1f9&timestamp=1491833389&nonce=1536273880&openid=o16hwwRX1OUbDmfy-O5GuoAOvTrc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: $returnText /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `luck_code` SET `time`='1491833390' WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' AND `version` = 10 [ RunTime:0.0041s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwYQcWYo-rjYhR-Wqxr47jow' AND `version` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-04-10T22:10:32+08:00 ] 101.226.233.141 /luck/index.php?signature=96a17d76fbad6e76bbcefa3de11f394af62e633b&timestamp=1491833431&nonce=2109860297&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: $returnText /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `luck_user` (`unionid`,`openid`,`time`,`nickname`,`other_info`) VALUES ('oV6UzwaBqA0Eb-kKZeE0SJpJP6_c','o16hwwb9HjRJ9uxDHWqd4FoHdeFI','1491833432','味增','{\"subscribe\":1,\"openid\":\"o16hwwb9HjRJ9uxDHWqd4FoHdeFI\",\"nickname\":\"味增\",\"sex\":1,\"language\":\"zh_CN\",\"city\":\"蚌埠\",\"province\":\"安徽\",\"country\":\"中国\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/35SBZOicCiafKwOyBqDQ3bN2e4ibXuczFfrib6nRlVtTLiajSI5KgDVqWQWebOuhxoaKibXK1hOw84BYTAK7603be1mPJueweTZ264\\/0\",\"subscribe_time\":1491016468,\"unionid\":\"oV6UzwaBqA0Eb-kKZeE0SJpJP6_c\",\"remark\":\"\",\"groupid\":0,\"tagid_list\":[]}') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `luck_code` (`unionid`,`luckcode`,`time`,`version`) VALUES ('oV6UzwaBqA0Eb-kKZeE0SJpJP6_c','2938363','1491833432','10') [ RunTime:0.0002s ]
+
+[ 2017-04-10T22:11:00+08:00 ] 101.226.233.141 /luck/index.php?signature=2373556dde3b4f17254939d0d99a74086849bda7&timestamp=1491833460&nonce=1110817366&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `luck_code` SET `time`='1491833460' WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 [ RunTime:0.0042s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-04-10T22:11:17+08:00 ] 101.226.233.151 /luck/index.php?signature=62fa58d93d6ff654adb31e815932a0b2f055acb4&timestamp=1491833475&nonce=1479323122&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `luck_code` SET `time`='1491833477' WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 [ RunTime:0.0041s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-04-10T22:14:24+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-04-10T22:14:27+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/ajaxData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT `shareimg`,`openid`,nickname as name FROM `luck_code` INNER JOIN luck_user on luck_code.unionid = luck_user.unionid and luck_code.version='10' and luck_code.time>0 and luck_code.shareimg!='null'  ORDER BY rand() LIMIT 12   [ RunTime:0.0299s ]
+
+[ 2017-04-10T22:14:29+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/AdminController.class.php 第 127 行.
+
+[ 2017-04-10T22:14:46+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/AdminController.class.php 第 127 行.
+
+[ 2017-04-10T22:14:48+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-04-10T22:15:13+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/wx.aufe.vip/luck/Application/Home/Controller/AdminController.class.php 第 127 行.
+
+[ 2017-04-10T22:15:24+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-04-10T22:19:32+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 199 行.
+
+[ 2017-04-10T22:20:35+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-04-10T22:22:51+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Admin/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 214 行.
+
+[ 2017-04-10T22:22:59+08:00 ] 223.104.34.110 /luck/index.php?s=/Home/Index/detail&code=0413iAU70i9zOI1zxLU70H1EU703iAUd&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-04-10T22:23:08+08:00 ] 101.226.33.203 /luck/index.php?s=/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-04-10T22:40:36+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/detail&code=031HBcbl2tujwI07Ambl29o1bl2HBcbp&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0013s ]
+ERR: 模板不存在:./Application/Home/View/Index/detail.html
+
+[ 2017-04-10T22:41:03+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/detail&code=031HBcbl2tujwI07Ambl29o1bl2HBcbp&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: refresh_token /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxScopeLogic.class.php 第 39 行.
+NOTIC: [8] Undefined index: access_token /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxScopeLogic.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-04-10T22:41:24+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/detail&code=0312nD3g1Emgaw0cOz2g15Kw3g12nD3A&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-04-10T22:41:44+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-10T22:42:17+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-04-10T22:43:40+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/luck&code=041YAw3y0adarg15FO2y0Scs3y0YAw3k&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-04-10T22:45:51+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/detail&code=031duIJt0sroUd1doBJt06tEJt0duIJA&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-04-10T22:47:23+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/luck&code=021saein19rOEm0QyMhn1Dw0in1saei8&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-04-10T22:49:04+08:00 ] 223.104.34.110 /luck/index.php?s=Home/Index/detail&code=041EqoFe1hvQ8v0Zv2Ie1G0EFe1EqoFc&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-04-10T22:49:11+08:00 ] 223.104.34.110 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+
+[ 2017-04-10T22:49:23+08:00 ] 223.104.34.110 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0008s ]
+
+[ 2017-04-10T22:49:57+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/detail&code=011lTabX1Qvj8V0gaUbX1PXebX1lTabZ&state=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-04-10T22:50:03+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+
+[ 2017-04-10T22:50:32+08:00 ] 112.28.146.57 /luck/index.php?s=/Home/Index/ajaxSub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: UPDATE `luck_user` SET `phonenum`='18895655227' WHERE ( `unionid`='oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' ) [ RunTime:0.0003s ]
+
+[ 2017-04-10T22:59:47+08:00 ] 101.226.233.141 /luck/index.php?signature=969e6910ae451a6d9179b1d481e507741eba4edb&timestamp=1491836387&nonce=410405491&openid=o16hwwb9HjRJ9uxDHWqd4FoHdeFI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `luck_user` (`unionid`,`openid`,`time`,`nickname`,`other_info`) VALUES ('oV6UzwaBqA0Eb-kKZeE0SJpJP6_c','o16hwwb9HjRJ9uxDHWqd4FoHdeFI','1491836387','味增','{\"subscribe\":1,\"openid\":\"o16hwwb9HjRJ9uxDHWqd4FoHdeFI\",\"nickname\":\"味增\",\"sex\":1,\"language\":\"zh_CN\",\"city\":\"蚌埠\",\"province\":\"安徽\",\"country\":\"中国\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/35SBZOicCiafKwOyBqDQ3bN2e4ibXuczFfrib6nRlVtTLiajSI5KgDVqWQWebOuhxoaKibXK1hOw84BYTAK7603be1mPJueweTZ264\\/0\",\"subscribe_time\":1491016468,\"unionid\":\"oV6UzwaBqA0Eb-kKZeE0SJpJP6_c\",\"remark\":\"\",\"groupid\":0,\"tagid_list\":[]}') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `luck_code` (`unionid`,`luckcode`,`time`,`version`) VALUES ('oV6UzwaBqA0Eb-kKZeE0SJpJP6_c','9278728','1491836387','10') [ RunTime:0.0002s ]
+
+[ 2017-04-10T22:59:51+08:00 ] 223.104.34.110 /luck/index.php?s=Home/Index/luck&code=041rSuXl0JgxZn19boWl0gbIXl0rSuXh&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-04-10T23:00:05+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/luck&code=001csKOM0oGJw52aNaMM0JSPOM0csKOd&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-04-10T23:00:19+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/luck&code=021h2KO40IVdpH1xqFO401CQO40h2KOT&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-04-10T23:00:27+08:00 ] 112.28.146.57 /luck/index.php?s=Home/Index/luck&code=051fQPvA04C87d2ckMwA0FRTvA0fQPvp&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-04-10T23:01:42+08:00 ] 223.104.34.110 /luck/index.php?s=Home/Index/luck&code=041rSuXl0JgxZn19boWl0gbIXl0rSuXh&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: refresh_token /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxScopeLogic.class.php 第 39 行.
+NOTIC: [8] Undefined index: access_token /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxScopeLogic.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-04-10T23:06:30+08:00 ] 112.28.146.23 /luck/index.php?s=Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-04-10T23:10:33+08:00 ] 183.3.240.34 /luck/index.php?timestamp=1491837033&signature=72a7baf0fbedc0d475f5cc3e8fdc086d77a45850&nonce=101684256&echostr=14918370334956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-04-10T23:10:33+08:00 ] 183.3.240.34 /luck/index.php?timestamp=1491837033&signature=800951c51d4e19aba1c1b6c826790f4c8b3fd8ef&nonce=913770424&echostr=14918370332303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-04-10T23:10:33+08:00 ] 183.3.240.34 /luck/index.php?timestamp=1491837033&signature=f4e574e189295a4a3b8f8e9ab658383bbf0b1548&nonce=412686557&echostr=14918370336585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-04-10T23:14:06+08:00 ] 183.3.240.250 /luck/index.php?timestamp=1491837245&signature=cb54e216af108418b93b67debe08be05180e2f4d&nonce=163636262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: errcode /home/wwwroot/wx.aufe.vip/luck/Application/Home/Logic/WxResponseLogic.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `luck_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luck_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_user` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `luck_code` SET `time`='1491837246' WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `luck_code` WHERE `unionid` = 'oV6UzwaBqA0Eb-kKZeE0SJpJP6_c' AND `version` = 10 LIMIT 1   [ RunTime:0.0003s ]
+
